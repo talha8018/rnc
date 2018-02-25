@@ -1,0 +1,172 @@
+#challan-body
+{
+    width:  1366px;
+    height: 612px;
+    border:3px solid #fff;
+    transform:scale(0.77);transform-origin:0 0;
+}
+.heading
+{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+.copy
+{
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: italic;
+}
+.p-0
+{
+    padding:0 !important;
+}
+.account
+{
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.rnc-logo
+{
+    position: absolute;
+    width: 90px;
+    margin: -15px 0px 0px 20px;
+}
+.ubl-logo
+{
+    position: absolute;
+    margin: 10px 0px 0px -25px;
+    width: 100px;
+}
+
+.m0a
+{
+    margin: 0 auto;
+}
+
+.bar-code
+{
+        text-align: center;
+    letter-spacing: 3px;
+    font-size: 12px;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 4px 20px;;
+    border: 0px;
+}
+
+.table>caption+thead>tr:first-child>td, .table>caption+thead>tr:first-child>th, .table>colgroup+thead>tr:first-child>td, .table>colgroup+thead>tr:first-child>th, .table>thead:first-child>tr:first-child>td, .table>thead:first-child>tr:first-child>th {
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    border-left: 0;
+    border-right: 0;
+}
+
+.table-bordered
+{
+    border: 0px;
+}
+
+.b-v
+{
+    border-top:2px solid !important;
+    border-bottom: 2px solid !important;
+}
+
+.p-heading
+{
+    padding: 4px 20px;
+    border-bottom: 1px solid;
+    border-top: 1px solid; 
+    margin: 0px;
+}
+
+.p-inner
+{
+    padding: 4px 20px;
+    margin: 0px;
+}
+
+.p-100
+{
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+.m-0
+{
+    margin: 0 !important;
+}
+
+.bank-section
+{
+    padding: 20px;
+    border: 1px solid;
+    margin-top: 10px;
+}
+.bank-use
+{
+    position: absolute;
+    margin: -29px 0px 0px 138px;
+    background: #fff;
+    font-size: 12px;
+    font-weight: bold;
+}
+.total
+{
+    border: 1px solid;
+    text-align: right;
+    padding-right: 20px;
+    height: 22px;
+}
+
+.signature
+{
+    margin-top: 50px;
+}
+
+.depo
+{
+    border-top: 1px solid;
+    width: 100px;
+    text-align: center;
+}
+
+.last-line
+{
+        font-size: 12px;
+    font-style: italic;
+    text-align: center;
+}
+.v-printed
+{
+    transform: rotate(-90deg);
+    transform-origin: right top 0;
+    font-size: 10px;
+}
+.crop
+{
+    border-left: 1px dotted;
+    border-right: 1px dotted;
+}
+.pagebreak { page-break-before: always; }
+
+@media print {
+.bank-use{
+    background-color: #fff !important;
+    -webkit-print-color-adjust: exact; 
+}
+#challan-body
+{
+
+    transform:scale(1) !important;
+}
+
+
+}

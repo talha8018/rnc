@@ -1,0 +1,37 @@
+/* Write your custom CSS here */
+.login-page
+{
+    background: url('/assets/images/login.jpg');
+    background-size: cover;
+    background-position-y: bottom;
+}
+.btn-bs-file{
+    position:relative;
+}
+.btn-bs-file input[type="file"]{
+    position: absolute;
+    top: -9999999;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    width:0;
+    height:0;
+    outline: none;
+    cursor: inherit;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    border-color: #E6E8EB;
+    padding: 4px 6px;
+    font-size: 13px;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    line-height: 1.42857143;
+    vertical-align: middle;
+}
+.panel
+{
+    border:0;
+    padding: 0px;
+}
+
+
+
